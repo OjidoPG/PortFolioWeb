@@ -1,0 +1,214 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+     ViewBag.Title = "Accueil";
+}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Pascal Giraud</span>
+        <span class="d-none d-lg-block">
+            <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profil.jpg" alt="photo Pascal GIRAUD">
+        </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#principal">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#cv">Curriculum vitae</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#diplomes">Diplômes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#experience">Expériences professionnelles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#realisations">Réalisations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid p-0">
+    <!-- Index accueil -->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="principal">
+        <div class="w-100">
+            <h1 class="mb-0">
+                Pascal
+                <span class="text-primary">GIRAUD</span>
+            </h1>
+            <div class="subheading mb-5">
+                10 rue du Rabodeau . 54320 MAXEVILLE . 06-50-12-81-10 .
+                <a href="mailto:giraud.pascal@outlook.com">giraud.pascal@outlook.com</a>
+            </div>
+            <p class="lead mb-5">
+                Pendant plus de dix ans, j’ai mis à profit mon expérience dans les relations humaines, dans la compréhension de l’autre et dans la résolution de situations critiques pour venir en aide à mes patients. <br>
+                Ah oui, j'ai oublié de vous dire, j'ai été infirmier !<br>
+                Cependant, quoique passionnant, ce métier ne permettait pas de mettre a profit ma créativité et ne permettait pas d’observer les résultats des actions menées.<br>
+                J’ai donc décidé de me réorienter pour me diriger vers une autre passion, l’informatique.<br>
+                Après une période de réorientation, j’ai obtenu le titre de "Concepteur Développeur Informatique" à l’AFPA en juin 2017. J’ai travaillé un an comme développeur informatique C# ASP.Net MVC 5 (razor).<br>
+                J’ai ensuite décidé de poursuivre ma montée en compétence en rejoignant le CESI pour une POEC RIL.<br>
+                J’ai depuis trouvé un emploi au sein de la société C2i santé.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/pascal-giraud-1a2513128">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/OjidoPG">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.facebook.com/pascal.giraud.1485537">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0">
+    <!-- Curriculum vitae -->
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="cv">
+        <div class="w-100">
+            <h2 class="mb-5">Curriculum vitae</h2>
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <embed src="~/img/CV.pdf" width=800 height=1200 type='application/pdf' />
+            </div>
+        </div>
+    </section>
+    <hr class="m-0">
+    <!-- Diplômes -->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="diplomes">
+        <div class="w-100">
+            <h2 class="mb-5">Diplômes</h2>
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h3 class="mb-0">University of Colorado Boulder</h3>
+                    <div class="subheading mb-3">Bachelor of Science</div>
+                    <div>Computer Science - Web Development Track</div>
+                    <p>GPA: 3.23</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">August 2006 - May 2010</span>
+                </div>
+            </div>
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                    <h3 class="mb-0">James Buchanan High School</h3>
+                    <div class="subheading mb-3">Technology Magnet Program</div>
+                    <p>GPA: 3.56</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">August 2002 - May 2006</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0">
+    <!-- Expériences professionnelles -->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="experience">
+        <div class="w-100">
+            <h2 class="mb-5">Expériences professionnelles</h2>
+            <div class="row">
+                <div class="col-md-4 text-center regExp">
+                    <a href="@Url.Action("Inf", "ExpPro")"><img src="~/img/infLogo.png" class="imgOver" /></a>
+                    <div class="overlay">
+                        <span class="textCss">Infirmier</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center regExp">
+                    <a href="@Url.Action("Dev", "ExpPro")"><img src="~/img/devLogo.png" class="imgOver" /></a>
+                    <div class="overlay">
+                        <span class="textCss">Développeur</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center regExp">
+                    <a href="@Url.Action("Divers", "ExpPro")"><img src="~/img/travailLogo.png" class="imgOver" /></a>
+                    <div class="overlay">
+                        <span class="textCss">Divers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0">
+    <!-- Réalisations -->
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="realisations">
+        <div class="w-100">
+            <h2 class="mb-5">Réalisations</h2>
+            <div class="row">
+                <div class="col-md-4 offset-1 text-center regExp">
+                    <img src="~/img/sitePerso.jpg" class="imgOver" data-toggle="modal" data-target="#PortfolioModal" />
+                    <div class="overlay">
+                        <span class="textCss">Portfolio</span>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-2 text-center regExp">
+                    <img src="~/img/TP_POEC.jpg" class="imgOver" data-toggle="modal" data-target="#POECModal" />
+                    <div class="overlay">
+                        <span class="textCss">TP POEC</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="PortfolioModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header justify-content-center">
+                            <h5 class="modal-title">Site personnel "Portfolio"</h5>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-md-2 offset-1">Objectif</div>
+                                <div class="col-md-7 offset-1">Réalisation d'un portfolio en ligne pour décrire mon parcour, mes expériences et mes réalisations</div>                                
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 offset-1">Langage</div>
+                                <div class="col-md-7 offset-1">C# ASP.Net MVC 5 (razor) - HTML 5 - CSS 3 - JQuery</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 offset-1">Framework</div>
+                                <div class="col-md-7 offset-1">Boostrap 4</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 offset-1">Précisions</div>
+                                <div class="col-md-7 offset-1">N'étant pas graphiste, j'ai utilisé un template Bootstrap 4 que j'ai remis en forme 
+                                à ma convenance</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 justify-content-center">
+                                    <a href="https://github.com/OjidoPG/SitePersoWeb.git"><input type="button" class="btn btn-primary" value="GitHub" /></a>
+                                </div>                               
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="POECModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">TP POEC RIL</h5>
+                        </div>
+                        <div class="modal-body">
+                            bla bla bla
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+

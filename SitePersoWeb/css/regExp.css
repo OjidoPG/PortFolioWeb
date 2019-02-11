@@ -1,0 +1,71 @@
+﻿.overlay {
+    height: 30px;
+    opacity: 0;
+    transition-duration: 1s;
+    padding: 5px;
+    transform: translateY(-30px);
+}
+
+.regExp:hover .overlay {
+    opacity: 1;
+    transform: translateY(-60px);
+}
+
+.imgOver {
+    height: 225px;
+    transition-duration: 1s;
+}
+
+.regExp:hover .imgOver {
+    opacity: 0.5;
+}
+
+.textCss {
+    font-family: 'Comic Sans MS', cursive;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    background-color: #bd5d38;
+    padding: 10px;
+}
+
+.TitreExp {
+    margin-top: 150px;
+}
+
+.topJob {
+    height: 50px;
+}
+
+.cssRowJob {
+    background-color: white;
+    font-family: Calibri;
+}
+
+.anJob {
+    display: flex;
+    background-color: #9984D4;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.textJob {
+    color: black;
+}
+
+.btnExpPro {
+    color: white;
+    font-family: Saira Extra Condensed;
+    font-size: x-large;
+}
+
+.separJob {
+    height: 2px;
+    background-color: lightgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
