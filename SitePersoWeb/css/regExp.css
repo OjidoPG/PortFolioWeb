@@ -44,7 +44,7 @@
 
 .anJob {
     display: flex;
-    background-color: #9984D4;
+    background-color: #FF9065;
     color: white;
     border-radius: 10px;
     text-align: center;
@@ -65,7 +65,7 @@
 
 .separJob {
     height: 2px;
-    background-color: lightgray;
+    background-color: #11B296;
     margin-top: 15px;
     margin-bottom: 15px;
 }

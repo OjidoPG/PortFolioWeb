@@ -206,3 +206,4 @@ C:\Code\PortFolioWeb\SitePersoWeb\obj\Debug\SitePersoWeb.csproj.CoreCompileInput
 C:\Code\PortFolioWeb\SitePersoWeb\obj\Debug\SitePersoWeb.csproj.CopyComplete
 C:\Code\PortFolioWeb\SitePersoWeb\obj\Debug\SitePersoWeb.dll
 C:\Code\PortFolioWeb\SitePersoWeb\obj\Debug\SitePersoWeb.pdb
+C:\Code\PortFolioWeb\SitePersoWeb\obj\Debug\SitePersoWeb.csprojAssemblyReference.cache
