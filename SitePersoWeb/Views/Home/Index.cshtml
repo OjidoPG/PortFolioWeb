@@ -1,6 +1,6 @@
 ﻿@{
     Layout = "~/Views/Shared/_LayoutPage.cshtml";
-     ViewBag.Title = "Accueil";
+    ViewBag.Title = "Accueil";
 }
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -85,25 +85,32 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="diplomes">
         <div class="w-100">
             <h2 class="mb-5">Diplômes</h2>
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="resume-content">
-                    <h3 class="mb-0">University of Colorado Boulder</h3>
-                    <div class="subheading mb-3">Bachelor of Science</div>
-                    <div>Computer Science - Web Development Track</div>
-                    <p>GPA: 3.23</p>
+            <div class="row">
+                <div class="col-md-4 offset-1 text-center regExp">
+                    <a href="~/img/BacD.jpg" target="_blank"><img src="~/img/bacLogo.png" class="imgOver" /></a>
+                    <div class="overlay">
+                        <span class="textCss">Baccalauréat série D</span>
+                    </div>
                 </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">August 2006 - May 2010</span>
+                <div class="col-md-4 offset-1 text-center regExp">
+                    <a href="~/img/CDI.jpg" target="_blank"><img src="~/img/devLogo.png" class="imgOver" /></a>
+                    <div class="overlay">
+                        <span class="textCss">Développeur Informatique</span>
+                    </div>
                 </div>
             </div>
-            <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                <div class="resume-content">
-                    <h3 class="mb-0">James Buchanan High School</h3>
-                    <div class="subheading mb-3">Technology Magnet Program</div>
-                    <p>GPA: 3.56</p>
+            <div class="row">
+                <div class="col-md-4 offset-1 text-center regExp">
+                    <a href="~/img/DErecto.jpg" target="_blank"><img src="~/img/infLogo.png" class="imgOver" /></a>
+                    <div class="overlay">
+                        <span class="textCss">Diplôme d'état d'infirmier</span>
+                    </div>
                 </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">August 2002 - May 2006</span>
+                <div class="col-md-4 offset-1 text-center regExp">
+                    <a href="#" target="_blank"><img src="~/img/secourisme.png" class="imgOver" /></a>
+                    <div class="overlay">
+                        <span class="textCss">Secouriste</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -278,11 +285,25 @@
             </div>
         </div>
     </section>
+    <hr class="m-0">
     <!-- Certifications -->
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="certifications">
         <div class="w-100">
             <h2 class="mb-5">Certifications</h2>
-            
+            <div class="row">
+                <div class="col-md-4 offset-1 text-center regExp">
+                    <a href="~/img/ocrCSharp.pdf" target="_blank"><img src="~/img/ocr.jpg" class="imgOver" /></a>
+                    <div class="overlay">
+                        <span class="textCss">Développer en C#</span>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-1 text-center regExp">
+                    <a href="~/img/ocrPHPMySQL.pdf" target="_blank"><img src="~/img/ocr.jpg" class="imgOver" /></a>
+                    <div class="overlay">
+                        <span class="textCss">PHP - MySQL</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </div>
