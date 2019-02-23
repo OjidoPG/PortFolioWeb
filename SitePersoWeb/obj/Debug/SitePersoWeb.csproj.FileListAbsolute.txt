@@ -169,7 +169,10 @@ C:\Code\SitePersoWeb\SitePersoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompiler
 C:\Code\SitePersoWeb\SitePersoWeb\bin\Microsoft.Web.Infrastructure.dll
 C:\Code\SitePersoWeb\SitePersoWeb\bin\Newtonsoft.Json.dll
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Net.Http.Formatting.dll
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Helpers.dll
+C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Http.dll
+C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Http.WebHost.dll
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Mvc.dll
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Optimization.dll
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Razor.dll
@@ -188,7 +191,10 @@ C:\Code\SitePersoWeb\SitePersoWeb\bin\Microsoft.CodeDom.Providers.DotNetCompiler
 C:\Code\SitePersoWeb\SitePersoWeb\bin\Newtonsoft.Json.pdb
 C:\Code\SitePersoWeb\SitePersoWeb\bin\Newtonsoft.Json.xml
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Net.Http.Formatting.xml
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Helpers.xml
+C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Http.xml
+C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Http.WebHost.xml
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Mvc.xml
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.Razor.xml
 C:\Code\SitePersoWeb\SitePersoWeb\bin\System.Web.WebPages.xml
@@ -203,6 +209,7 @@ C:\Code\SitePersoWeb\SitePersoWeb\bin\fr\System.Web.WebPages.resources.dll
 C:\Code\SitePersoWeb\SitePersoWeb\bin\fr\System.Web.WebPages.Deployment.resources.dll
 C:\Code\SitePersoWeb\SitePersoWeb\bin\fr\System.Web.WebPages.Razor.resources.dll
 C:\Code\SitePersoWeb\SitePersoWeb\bin\fr\System.Web.Optimization.resources.dll
+C:\Code\SitePersoWeb\SitePersoWeb\obj\Debug\SitePersoWeb.csprojAssemblyReference.cache
 C:\Code\SitePersoWeb\SitePersoWeb\obj\Debug\SitePersoWeb.csproj.CoreCompileInputs.cache
 C:\Code\SitePersoWeb\SitePersoWeb\obj\Debug\SitePersoWeb.csproj.CopyComplete
 C:\Code\SitePersoWeb\SitePersoWeb\obj\Debug\SitePersoWeb.dll
